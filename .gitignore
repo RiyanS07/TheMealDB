@@ -1,0 +1,16 @@
+# Java / Maven 
+target/ 
+*.log 
+*.class 
+/.mvn/ 
+ 
+# Node 
+node_modules/ 
+dist/ 
+build/ 
+.env 
+ 
+# IDE 
+.vscode/ 
+.idea/ 
+*.iml 
