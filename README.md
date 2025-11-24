@@ -9,10 +9,13 @@ Full-stack project for exploring TheMealDB recipes.
 
 ## Repository Structure
 TheMealDB/
--backend/ (Spring Boot project)
--frontend/ (React Vite project)
--README.md
--.gitignore
+=>backend/ (Spring Boot project)
+
+=>frontend/ (React Vite project)
+
+=>README.md
+
+=>.gitignore
 --
 
 ## Backend - Spring Boot
