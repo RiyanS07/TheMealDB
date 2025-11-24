@@ -9,6 +9,7 @@ Full-stack project for exploring TheMealDB recipes.
 
 ## Repository Structure
 TheMealDB/
+
 =>backend/ (Spring Boot project)
 
 =>frontend/ (React Vite project)
@@ -16,7 +17,7 @@ TheMealDB/
 =>README.md
 
 =>.gitignore
---
+
 
 ## Backend - Spring Boot
 
@@ -33,28 +34,33 @@ mvn spring-boot:run
 
 Backend runs at: http://localhost:8080
 
-*API Endpoints
-Method	Endpoint	          Description
-GET	/api/search?name={name}	Search meals by name
-GET	/api/categories	        List categories
-GET	/api/category/{name}	  Meals in category
-GET	/api/random	            Random meal
-GET	/api/meal/{id}	        Meal details
-GET	/api/_health	          Health check
+**API Endpoints**
 
-#Caching
+GET =>/api/search?name={name}	=>Search meals by name
+
+GET =>/api/categories	=>List categories
+
+GET	=>/api/category/{name}=>Meals in category
+
+GET=>/api/random =>Random meal
+
+GET	=>/api/meal/{id} =>Meal details
+
+GET=>	/api/_health =>Health check
+
+Caching
 -Implemented using Caffeine
 
-#TTL: 5 minutes
+TTL: 5 minutes
 
-#Max entries: 500
+Max entries: 500
 
 Cache keys based on Spring Cache default method keys
 
-#Notes
+Notes
 -Uses WebClient (blocking .block()) for simplicity; production use should prefer reactive handling or resilience patterns.
 -Can switch to Redis by replacing the cache manager bean.
-===============================================================
+
 
 
 **Frontend - React (Vite)**
