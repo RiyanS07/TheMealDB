@@ -82,5 +82,3 @@ Open the app at http://localhost:5173.
 
 VITE_API_BASE=http://localhost:4000/api npm run dev
 
-**GitHub Repository**
-Public repo: https://github.com/RiyanS07/TheMealDB-Explorer
