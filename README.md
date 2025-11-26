@@ -29,7 +29,10 @@ TheMealDB/
 ### Run Locally
 1. Open terminal at `backend/` (or project root)
 
+cd backend
+
 mvn clean package
+
 mvn spring-boot:run
 
 Backend runs at: http://localhost:8080
@@ -70,7 +73,9 @@ Node.js & npm
 
 Run Locally
 cd frontend
+
 npm install
+
 npm run dev
 
 
